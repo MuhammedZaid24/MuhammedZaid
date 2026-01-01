@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store E-Commerce Gallery - Muhammed Zaid</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Reuse your main CSS -->
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+        .gallery-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 191, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+        .back-btn {
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            padding: 12px 24px;
+            background-color: #00bfff;
+            color: #121212;
+            text-decoration: none;
+            border-radius: 5px;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="section-title">Clothing Store E-Commerce Website Gallery</h2>
+        <div class="gallery-grid">
+            <!-- Replace these URLs with your actual screenshots -->
+            <img src="images/velvevogue1.png" alt="Homepage" class="gallery-img">
+            <img src="images/velvevogue2.png" alt="Homepage" class="gallery-img">
+            <img src="images/velvevogue3.png" alt="Homepage" class="gallery-img">
+            <img src="images/velvevogue4.png" alt="Homepage" class="gallery-img">
+            <!-- Add more images as needed -->
+        </div>
+        <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    </div>
+</body>
+</html>
